@@ -69,7 +69,7 @@ class DisplayDataActivity:AppCompatActivity() {
      * load my UserLeads from network
      */
     private fun loadUserLeads() {
-        lifecycleScope.launch(Dispatchers.Main) {
+        lifecycleScope.launch(Dispatchers.IO) {
             viewModel.getUserLeads().collectLatest {data->
                 adapter.submitData(data)
             }
