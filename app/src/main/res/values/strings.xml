@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="userid">userId : </string>
+    <string name="id">id : </string>
+    <string name="title">title : </string>
+    <string name="body">body : </string>
+    <string name="item_details">Item Details</string>
+</resources>
